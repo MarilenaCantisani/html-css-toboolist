@@ -44,18 +44,18 @@ h1 {
 .section-button {
     padding-left: 50px;
     padding-top: 10px;
-
 }
+
 button {
-    padding: 5px;
+    color: #fff;
     font-size: 10px;
+    padding: 5px;
     margin-bottom: 10px;
+    border-radius: 4px;   
 }
 
 .add-task {
     background-color: #47adf1;
-    color: #fff;
-    border-radius: 4px;
     border: none;
 }
 
@@ -63,7 +63,6 @@ button {
     background-color: #fff;
     color: #d2d7db;
     border: 1px solid #d2d7db;
-    border-radius: 4px;
 }
 
 /* Hr */
@@ -79,26 +78,21 @@ hr {
     padding-bottom: 30px;;
 }
 
-h2 {
+h2, li {
     color: #444851;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;   
+}
+
+h2 {
     font-size: 18px;
-    margin-top: 20px;
 }
 
 .arrow-symbol {
     font-size: 15px;
 }
 
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    margin-top: 20px;
-    color: #444851;
-    list-style-position:inside;
-    list-style-type:symbols("\2713") 
-}
-
+/* Text in the circle */
 .text-circle {
     font-size: 10px;
     color: #fff;
@@ -139,19 +133,18 @@ li {
     list-style-type: none;
 }
 
-.check {
-    color: #83cfbf;
-    border: 1px solid #83cfbf;
+.check, .cross {
     border-radius: 50%;
     padding: 2px;
     font-size: 10px;
 }
 
+.check {
+    color: #83cfbf;
+    border: 1px solid #83cfbf;
+}
+
 .cross {
     color: #eb5851;
     border: 1px solid #eb5851;
-    border-radius: 50%;
-    padding: 2px;
-    font-size: 10px;
-    width: 30px;
 }
