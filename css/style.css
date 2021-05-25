@@ -134,16 +134,24 @@ li {
 
 
 /* Check or cross list */
-
 li {
-    list-style-position: inside;
-    list-style-type: "\2713";
+    list-style-position: outside;
+    list-style-type: none;
 }
 
 .check {
-    list-style-type: "\2713";
+    color: #83cfbf;
+    border: 1px solid #83cfbf;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
 }
 
 .cross {
-    list-style-type: "\2717";
+    color: #eb5851;
+    border: 1px solid #eb5851;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+    width: 30px;
 }
