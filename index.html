@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,58 +11,90 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
     <title>Toboolist</title>
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-        <img id="logo" src="./img/Logo.png" alt="Logo Toboolist">
-         <h1>Toboolist</h1>
+    <!--// HEADER //-->
+    <header class="bg-white">
+        <img id="logo" class="ml-20" src="./img/Logo.png" alt="Logo Toboolist">
+        <h1 class="f-40">Toboolist</h1>
     </header>
-
-    <!-- Main -->
-    <div class="container">
+    <!--// MAIN //-->
+    <div class="container bg-white mt-40">
         <main>
-
             <!-- Button -->
-            <section class="section-button">
-                <button class="add-task" type="button">Add Task</button>
-                <button class="add-section" type="button">Add Section</button>
+            <section class="section-button pl-50 pt-10">
+                <button id="add-task" class="text-white p-5 bg-light-blue f-10 mb-10" type="button">Add Task</button>
+                <button id="add-section" class="p-5 bg-white f-10 mb-10 text-light-grey" type="button">Add
+                    Section</button>
             </section>
-            <hr>
-
-            <!-- Middle section  -->
-            <div class="middle-section">
-
+            <hr class="bg-light-grey">
+            <!--* Middle section *-->
+            <div class="middle-section pl-50 p-30">
                 <!-- Section "New-task" -->
                 <section class="section-new-task">
-                    <h2> <span class="arrow-symbol"></span> New Task</h2>
+                    <h2 class="f-18"><span class="arrow-symbol"></span>New Task</h2>
                     <ul>
-                       <li><span class="check">&check;</span> Quarterly Newsletter <span class="text-circle circle-blue">Editorial</span></li>
+                        <li>
+                            <span class="check f-10 text-light-green">&check;</span>
+                            <span>Quarterly Newsletter</span>
+                            <span class="text-circle f-10 text-white circle-blue">Editorial</span>
+                        </li>
                     </ul>
                 </section>
-                
                 <!-- Section "Today" -->
                 <section class="section-today">
-                    <h2> <span class="arrow-symbol">&#9660;</span> Today</h2>
+                    <h2 class="f-18"> <span class="arrow-symbol">&#9660;</span> Today</h2>
                     <ul>
-                        <li><span class="check">&check;</span> Recruiting blog post <span class="text-circle circle-blue">Editorial</span></li>
-                        <li><span class="check">&check;</span> Mobile app luaunch <span class="text-circle circle-purple">Q1 Goals</span></li>
-                        <li><span class="cross">&cross;</span> Interview John H. <span class="text-circle circle-green">Recruiting</span></li>
-                        <li><span class="check">&check;</span> Summit update to mobiile storefronts <span class="text-circle circle-orange">Mobile</span></li>
+                        <li>
+                            <span class="check f-10 text-light-green">&check;</span>
+                            <span>Recruiting blog post</span>
+                            <span class="text-circle f-10 text-white bg-blue">Editorial</span>
+                        </li>
+                        <li>
+                            <span class="check f-10 text-light-green">&check;</span>
+                            <span>Mobile app luaunch</span>
+                            <span class="text-circle f-10 text-white bg-purple">Q1 Goals</span>
+                        </li>
+                        <li>
+                            <span class="cross f-10 text-red">&cross;</span>
+                            <span>Interview John H.</span>
+                            <span class="text-circle f-10 text-white bg-green">Recruiting</span>
+                        </li>
+                        <li>
+                            <span class="check f-10 text-light-green">&check;</span>
+                            <span>Summit update to mobiile storefronts</span>
+                            <span class="text-circle f-10 text-white bg-orange">Mobile</span>
+                        </li>
                     </ul>
                 </section>
-
                 <!-- Section "Upcoming" -->
                 <section class="section-upcoming">
-                    <h2> <span class="arrow-symbol">&#9660;</span> Upcoming</h2>
+                    <h2 class="f-18"><span class="arrow-symbol">&#9660;</span> Upcoming</h2>
                     <ul>
-                        <li><span class="cross">&cross;</span> Schedule meeting with Alex</li>
-                        <li><span class="check">&check;</span> Homepage refresh <span class="text-circle circle-pink">Website</span></li>
-                        <li><span class="check">&check;</span> Onboard new Sales team members <span class="text-circle circle-lightgreen">Sales</span></li>
-                        <li><span class="check">&check;</span> Review editorial calendar <span class="text-circle circle-blue">Editorial</span></li>
+                        <li>
+                            <span class="cross f-10 text-red">&cross;</span>
+                            <span>Schedule meeting with Alex</span>
+                        </li>
+                        <li>
+                            <span class="check f-10 text-light-green">&check;</span>
+                            <span>Homepage refresh</span>
+                            <span class="text-circle f-10 text-white bg-pink">Website</span>
+                        </li>
+                        <li>
+                            <span class="check f-10 text-light-green">&check;</span>
+                            <span>Onboard new Sales team members</span>
+                            <span class="text-circle f-10 text-white bg-lightgreen">Sales</span>
+                        </li>
+                        <li>
+                            <span class="check f-10 text-light-green">&check;</span>
+                            <span>Review editorial calendar</span>
+                            <span class="text-circle f-10 text-white bg-blue">Editorial</span>
+                        </li>
                     </ul>
                 </section>
-            </div>   
+            </div>
         </main>
-    </div>   
+    </div>
 </body>
+
 </html>
